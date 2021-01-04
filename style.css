@@ -1,9 +1,68 @@
-body {
+body{
+    margin:0;
     font-family: 'Poppins', sans-serif;
+    
 }
-h1 {
+h1{
     font-size:50px;
 }
-.highlight-text {
-    color:orange
+h2{
+    font-size: 40px;
+}
+p{
+    color:dimgray;
+}
+.orange-highlight {
+    color:orange;
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width:100%;
+}
+.top-banner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height:500px;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, salmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+}
+.dream-area{
+    background-image: url("image/dream-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height:80%;
+}
+.experience-area{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#full-stuck{
+    border:left solid;
+    border-image: linear-gradient(180deg,light salmon,tomato);
+    border-image:1slice;
+}
+#baby-web{
+    border:left solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image:1slice;
 }
